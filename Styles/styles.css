@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+
+
+/* Nav Css */
+
+.nav-section{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100px;
+    
+}
+
+.nav-logo-img{
+    width: 70px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.nav-logo-name{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.nav-logo{
+    display: flex;
+}
+
+.nav-section nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+}
+
+.nav-section a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.nav-section i {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.special-span{
+    background-color: #E7E6E9;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.nav-menus{
+    display: flex;
+    align-items: center;
+}
+
+/* NAV CSS END */
+
+/* BANNER CSS START */
+
+.banner{
+    background-color: #FDF7FD;
+}
+.banner-section{
+        width: 100%;
+        margin: 0 auto;
+        min-height: 100px;
+        
+        padding: 100px 100px 0px;
+        display: flex;
+        justify-content: space-between;
+        max-width: 1400px;
+        
+}
+
+.banner-heading{
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+.banner-goat{
+    font-size: 95px;
+    background-image: linear-gradient(to bottom,#F948B2,#8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.banner-title{
+    width: 30%;
+    margin-top: 80px;
+}
+
+.banner-title > ul > li {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-top: 5px;
+}
+
+.sign-in-btn{
+    background-color: #FF42A5;
+    padding: 16px 50px;
+    border: none;
+    border-radius: 45px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.rongue-btn{
+    background-color: #97D3FF;
+    padding: 16px 50px;
+    border: none;
+    border-radius: 45px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.banner-img{
+    width: 50%;
+    
+}
+
+.banner-img img{
+    width: 500px;
+    
+}
+
+/* BANNER CSS ENDS */
+
+/* ONLINE GAMING CSS */
+
+.online-gaming{
+    max-width: 1400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    min-height: 200px;
+    
+}
+
+.online-gaming-heading{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: work sans;
+
+}
+
+.ogh-span{
+    background-image: linear-gradient(to bottom,#F948B2,#8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.online-gaming-title{
+    font-size: 30px;
+    color: #534C64;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.box > p{
+    font-size: 20px;
+}
+
