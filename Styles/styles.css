@@ -290,7 +290,7 @@
 .section-careers{
     background-color: #F948B2 ;
     min-height: 200px;
-    padding: 100px;
+    /* padding: 100px; */
 }
 .careers{
     width: 100%;
@@ -303,6 +303,7 @@
 
 .career-description{
     width: 50%;
+    padding: 45px;
     
    
 }
@@ -329,6 +330,7 @@
     font-weight: 700;
     border-radius: 30px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .career-img img{
