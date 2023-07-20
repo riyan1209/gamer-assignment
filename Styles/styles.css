@@ -4,17 +4,28 @@
     padding: 0px;
     margin: 0px;
     list-style: none;
+    
+    
 }
+
+
 
 
 
 /* Nav Css */
 
+
+
 .nav-section{
-    max-width: 1400px;
-    width: 100%;
+    
+    
     margin: 0 auto;
     min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    
     
 }
 
@@ -41,6 +52,7 @@
     justify-content: space-between;
     align-items: center;
     min-height: 100px;
+   
 }
 
 .nav-section a{
@@ -123,6 +135,7 @@
     font-size: 20px;
     font-weight: 600;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .rongue-btn{
@@ -134,6 +147,7 @@
     font-size: 20px;
     font-weight: 600;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .banner-img{
@@ -157,6 +171,10 @@
     margin-top: 100px;
     min-height: 200px;
     
+}
+
+.box > img{
+    width: 300px;
 }
 
 .online-gaming-heading{
@@ -188,3 +206,199 @@
     font-size: 20px;
 }
 
+.image-container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-img{
+    position: relative;
+    
+}
+.sub-img{
+    position: absolute;
+    top: 330px;
+    left: 490px;
+}
+
+.image-texts{
+    text-align: center;
+    margin-left: 150px;
+}
+
+.online-play{
+    background-image: linear-gradient(to bottom,#F948B2,#8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.rct-section{
+    background-color: #FFF9FC;
+    margin-top: 40px;
+    padding: 100px 0px;
+}
+.rct-div{
+    
+   
+        width: 100%;
+        margin: 0 auto;
+        min-height: 100px;
+        max-width: 1400px;
+    
+    
+    
+}
+
+.all-btn-boxes{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 220px;
+    gap: 10px;
+    border: none;
+    
+}
+
+.all-btn-boxes-two{
+    
+    display: flex;
+    align-items: center;
+    margin-left: 290px;
+    gap: 10px;
+
+}
+
+.btn-primary{
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius:  30px;
+    padding: 5px;
+    border: none;
+    background-color: white;
+    font-weight: 600;
+    
+   
+}
+
+.btn-primary:hover{
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius:  30px;
+    padding: 5px;
+    border: 2px solid #FF42A5;
+    background-color: white;
+    color: #FF42A5;
+    font-weight: 600;
+    cursor: pointer;
+    
+   
+}
+
+.btn-primary img {
+    width: 30px;
+}
+
+.button{
+    margin-left: 50px;
+}
+
+/* FOOTER SECTION CSS */
+
+
+.footer-section{
+    background-color: #0B0223;
+    min-height: 70vh;
+    padding-bottom: 80px;
+    
+}
+
+.footer-container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footer-titles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 30px;
+}
+
+.footer-p{
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.footer-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 30px;
+}
+
+.footer-btn button{
+    border: none;
+    
+}
+
+.footer-btn i{
+    
+    
+    cursor: pointer;
+    font-size: 50px;
+    color: white;
+    background-color: #0B0223;
+    
+    
+}
+
+.footer-terms-part{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.footer-terms-part p {
+    color: #9D9AA7;
+    margin-right: 20px;
+}
+
+.footer-last{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-last p {
+    color: #9D9AA7;
+    
+}
