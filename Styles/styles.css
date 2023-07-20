@@ -173,9 +173,56 @@
     
 }
 
-.box > img{
-    width: 300px;
+.box{
+    
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease;
+      
 }
+
+
+
+.box > img{
+     width: 300px;
+     object-fit: cover;
+     transition: opacity 0.3s ease;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+
+  
+  .box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
+  }
+  
+  .box:hover img {
+    opacity: 0.8;
+   
+    
+  }
+  
+  .box:hover .play-button {
+    opacity: 1;
+  }
 
 .online-gaming-heading{
     font-size: 60px;
